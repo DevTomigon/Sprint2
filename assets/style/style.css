@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+.fa-solid .fa-phone {
+    margin: 0px 20px;
+}
+
 body {
     background-color: rgb(212, 211, 211);
 }
@@ -16,20 +20,17 @@ body {
 .nav {
     box-shadow: 25px 15px 60px 20px rgba(0, 0, 0, 0.5);
     background-color: #08668b;
-    padding: 10px 90px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 10px;
 }
 
-.nav a{
-    transition: .3s;
+.nav a {
+    transition: 0.3s;
     font-size: 18px;
     color: #000000;
     text-decoration: none;
     font-weight: 500;
+    display: inline-block;
     margin-left: 35px;
-    transition: .3s;   
 }
 
 .nav img {
@@ -39,38 +40,42 @@ body {
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
     border: #f0f0f0 1px solid;
     border-radius: 8px;
-    padding: 5px;
+    margin-top: 20px;
+    float: right;
 }
 
 .lista {
     margin: 10px 0;
     padding: 30px;
+    display: inline-block;
 }
 
 .lista li {
     display: inline;
     margin-right: 45px;
-    text-shadow: 1px  1px 2px rgba(0, 0, 0, 0.5);
 }
 
-ul li{
+ul li {
     padding: 5px;
+    display: inline-block;
 }
 
 li a {
     color: rgb(0, 0, 0);
-    font-weight:bold;
+    font-weight: bold;
     font-size: 20px;
 }
 
 a:hover,
-a.active{
+a.active {
     background-color: #ffffff;
     border-radius: 8px;
     padding: 10px;
+    display: inline-block;
 }
 
-.nameandtitle h1, .nameandtitle h2{
+.nameandtitle h1,
+.nameandtitle h2 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -82,11 +87,10 @@ a.active{
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
     color: #fff;
     padding: 2px;
-    text-shadow: 15px  15px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
 }
 
-
-.nameandtitle{
+.nameandtitle {
     background-color: #feffff;
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
     border: #f0f0f0 1px solid;
@@ -101,13 +105,13 @@ main {
 
 .banner {
     width: 100%;
-    padding: 90px 200px;
+    padding: 90px 50px;
     background-image: url(../images/imagebanner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 30px 0px 0px 0px;
-    box-shadow: 15px 15px 20px 10px rgba(0, 0, 0, 0.5)
+    margin-top: 30px;
+    box-shadow: 15px 15px 20px 10px rgba(0, 0, 0, 0.5);
 }
 
 .image1 {
@@ -115,14 +119,13 @@ main {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     background-color: #d1cfcf;
     padding: 10px 60px;
-
 }
 
 .image1 img {
     width: 60vh;
     height: 60vh;
-    float: right; 
-    margin-left: 20px; 
+    float: right;
+    margin-left: 20px;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -138,64 +141,64 @@ main {
     box-shadow: 5px 5px 5px rgb(27, 27, 27);
 }
 
-.recuadroadentro{
+.recuadroadentro {
     background-color: #08668b;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
     border: #08668b 1px solid;
     border-radius: 20px;
     margin-top: 10px;
-    overflow:hidden; 
-    text-align: left; 
-    padding: 20px 30px;
+    overflow: hidden;
+    text-align: left;
+    padding: 20px;
 }
 
-.imagenesenfila img{
+.imagenesenfila img {
     width: 60vh;
     height: 60vh;
-    margin: 20px 0px;
+    margin: 20px;
     object-fit: cover;
 }
 
-.imagenesenfila{
-    display:grid;
+.imagenesenfila {
+    display: inline-block;
     margin: 10px 20rem;
     background-color: #08668b;
-    padding: 30px 80px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 25px 15px 25px rgba(0, 0, 0, 0.5);
 }
 
-.imagen2{
-    margin: 10px 30px;
-    justify-content: space-between;
-    text-align: right;
-    border: #fff 2px solid;
+.imagen2 {
     background-color: #fff;
     box-shadow: 25px 15px 20px rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 8px;
-    
+    padding: 1.5rem;
+    border: .2rem solid #00abf0;
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
 }
 
-.imagen2 img{
+.imagen2 img {
     width: 30vh;
     height: 30vh;
-    float: left; 
+    float: left;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-.imagen2 p{
+.imagen2 p {
     margin-top: 20px;
     margin-left: 60px;
-    text-align: right;
+    text-align: center;
     background-color: #08668b;
     box-shadow: 25px 15px 20px rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 8px;
     color: #fff;
-    text-shadow: 15px  15px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
     background: #08668b;
     border: 2px solid #08668b;
     border-radius: 8px;
@@ -205,39 +208,39 @@ main {
     letter-spacing: 1px;
     z-index: 1;
     overflow: hidden;
-    transition: .5s;
 }
 
-.imagen3{
-    margin: 10px 30px;
-    justify-content: space-between;
-    text-align: right;
-    border: #fff 2px solid;
+.imagen3 {
     background-color: #fff;
     box-shadow: 25px 15px 20px rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 8px;
+    padding: 1.5rem;
+    border: .2rem solid #00abf0;
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
 }
 
-.imagen3 img{
+.imagen3 img {
     width: 30vh;
     height: 30vh;
-    float: left; 
+    float: left;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-.imagen3 p{
+.imagen3 p {
     margin-top: 20px;
     margin-left: 60px;
-    text-align: right;
+    text-align: center;
     background-color: #08668b;
     box-shadow: 25px 15px 20px rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 8px;
     color: #fff;
-    text-shadow: 15px  15px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
     background: #08668b;
     border: 2px solid #08668b;
     border-radius: 8px;
@@ -247,39 +250,40 @@ main {
     letter-spacing: 1px;
     z-index: 1;
     overflow: hidden;
-    transition: .5s;
+    transition: 0.5s;
 }
 
-.imagen4{
-    margin: 10px 30px;
-    justify-content: space-between;
-    text-align: right;
-    border: #fff 2px solid;
+.imagen4 {
     background-color: #fff;
     box-shadow: 25px 15px 20px rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 8px;
+    padding: 1.5rem;
+    border: .2rem solid #00abf0;
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
 }
 
-.imagen4 img{
+.imagen4 img {
     width: 30vh;
     height: 30vh;
-    float: left; 
+    float: left;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-.imagen4 p{
+.imagen4 p {
     margin-top: 20px;
     margin-left: 60px;
-    text-align: right;
+    text-align: center;
     background-color: #08668b;
     box-shadow: 25px 15px 20px rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 8px;
     color: #fff;
-    text-shadow: 15px  15px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
     background: #08668b;
     border: 2px solid #08668b;
     border-radius: 8px;
@@ -289,22 +293,26 @@ main {
     letter-spacing: 1px;
     z-index: 1;
     overflow: hidden;
-    transition: .5s;
+    transition: 0.5s;
 }
 
-.image5{
+.image5 {
     display: block;
     text-align: center;
-    padding: 30px 30px;
-    margin: 60px 50px;
+    padding: 30px;
+    margin: 60px;
+    border: #08668b 2px solid;
+    background-color: #08668b;
+    border-radius: 8px;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.5);
 }
 
-.image5 img{
+.image5 img {
     max-width: 700px;
     border-radius: 8px;
 }
 
-.image5 p{
+.image5 p {
     margin-top: 50px;
     text-align: center;
     background-color: #feffff;
@@ -314,51 +322,47 @@ main {
     padding: 5px;
 }
 
-
-
-.email{
+.email {
     display: inline-block;
-    margin: 10px 60px;
+    margin: 10px;
     margin-bottom: 30px;
 }
 
-.datosdecontacto .telefono a{
+.datosdecontacto .telefono a {
     text-decoration: none;
     color: #000000;
-    transition: .3s;
+    transition: 0.3s;
     font-size: 18px;
     color: #000000;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
-    transition: .3s;
+    display: inline-block;
 }
 
 .telefono {
     display: inline-block;
-    margin: 10px 60px;
+    margin: 10px;
     margin-bottom: 30px;
 }
 
-.datosdecontacto{
+.datosdecontacto {
     text-align: center;
 }
 
-.datosdecontacto .email a{
+.datosdecontacto .email a {
     text-decoration: none;
     color: #000000;
-    transition: .3s;
+    transition: 0.3s;
     font-size: 18px;
     color: #000000;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
-    transition: .3s;
+    display: inline-block;
 }
 
-
-
-footer{
+footer {
     text-align: center;
     background-color: #ffffff;
     padding: 30px;
