@@ -382,6 +382,12 @@ main {
   width: 100%;
 }
 
+th{
+  background-color: #fff;
+  color: #000000;
+  border: 2px solid black;
+}
+
 table {
   border: 1;
   border-collapse: collapse;
