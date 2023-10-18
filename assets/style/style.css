@@ -1,19 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap");
+
 @-webkit-keyframes flip-vertical-fwd {
   0% {
     -webkit-transform: translateZ(0) rotateY(0);
     transform: translateZ(0) rotateY(0);
   }
+
   100% {
     -webkit-transform: translateZ(160px) rotateY(180deg);
     transform: translateZ(160px) rotateY(180deg);
   }
 }
+
 @keyframes flip-vertical-fwd {
   0% {
     -webkit-transform: translateZ(0) rotateY(0);
     transform: translateZ(0) rotateY(0);
   }
+
   100% {
     -webkit-transform: translateZ(160px) rotateY(180deg);
     transform: translateZ(160px) rotateY(180deg);
@@ -108,10 +112,8 @@ a.active {
   color: #fff;
   padding: 2px;
   text-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
-  -webkit-animation: flip-vertical-fwd 0.4s
-    cubic-bezier(0.455, 0.03, 0.515, 0.955) reverse both;
-  animation: flip-vertical-fwd 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    reverse both;
+  -webkit-animation: flip-vertical-fwd 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) reverse both;
+  animation: flip-vertical-fwd 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) reverse both;
 }
 
 .nameandtitle {
@@ -183,7 +185,7 @@ main {
   object-fit: cover;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: space-between;
   margin: 10px 20rem;
@@ -323,6 +325,7 @@ main {
   overflow: hidden;
   transition: 0.5s;
 }
+
 .image5 {
   text-align: center;
   margin: 60px;
@@ -348,13 +351,15 @@ main {
   padding: 5px;
 }
 
-.email, .telefono {
+.email,
+.telefono {
   display: inline-block;
   margin: 10px;
   margin-bottom: 30px;
 }
 
-.email a, .telefono a {
+.email a,
+.telefono a {
   text-decoration: none;
   color: #000000;
   transition: 0.3s;
@@ -382,7 +387,7 @@ main {
   width: 100%;
 }
 
-th{
+th {
   background-color: #fff;
   color: #000000;
   border: 2px solid black;
@@ -427,10 +432,8 @@ h4 {
   padding: 2px;
   text-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
   text-decoration: underline;
-  -webkit-animation: flip-vertical-fwd 0.4s
-    cubic-bezier(0.455, 0.03, 0.515, 0.955) reverse both;
-  animation: flip-vertical-fwd 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    reverse both;
+  -webkit-animation: flip-vertical-fwd 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) reverse both;
+  animation: flip-vertical-fwd 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) reverse both;
 }
 
 #text1 {
@@ -450,7 +453,7 @@ h4 {
 .lista2 {
   display: flex;
   background-color: #feffff;
-  
+
   border: #f0f0f0 1px solid;
   border-radius: 8px;
   padding: 20px;
@@ -475,10 +478,10 @@ h4 {
 
 .image-container img {
   width: 40vh;
- filter: drop-shadow(0 5px 2px);
- justify-content: center;
- padding: 20px;
- object-fit: cover;
+  filter: drop-shadow(0 5px 2px);
+  justify-content: center;
+  padding: 20px;
+  object-fit: cover;
 }
 
 .text-container {
@@ -488,7 +491,7 @@ h4 {
   color: #fff;
 }
 
-.text-container img{
+.text-container img {
   max-height: 20vh;
   color: #000000;
   align-items: center;
@@ -513,11 +516,11 @@ h5 {
 }
 
 
-.image2behind img{
- max-width: 100%;
- filter: drop-shadow(0 5px 2px);
- justify-content: center;
- padding: 20px;
+.image2behind img {
+  max-width: 100%;
+  filter: drop-shadow(0 5px 2px);
+  justify-content: center;
+  padding: 20px;
   object-fit: cover;
 }
 
@@ -557,7 +560,7 @@ h5 {
 
 .text-container:hover .hidden-paragraph {
   transform: scaleY(1);
-  max-height: 100px; /* Ajusta la altura máxima según tus necesidades */
+  max-height: 100px;
   opacity: 1;
   margin: 10px 0;
   padding: 10px;
