@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>MYNDYPHOTO</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="../images/logo.png" alt="Mi Logo">
+            <ul class="lista">
+                <li><a href="/index.html"><i class="fa-solid fa-house" style="color: #000000;"></i> Home</a></li>
+                <li><a href="./about.html"><i class="fa-solid fa-address-card" style="color: #000000;"></i> About us</a>
+                </li>
+                <li><a href="./contact.html"><i class="fa-solid fa-phone" style="color: #000000;"></i> Contact</a></li>
+                <li><a href="./services.html"><i class="fa-solid fa-laptop" style="color: #000000;"></i> Services</a>
+                </li>
+                <li><a href="./rating.html"><i class="fa-solid fa-star" style="color: #000000;"></i><i
+                            class="fa-solid fa-star" style="color: #000000;"></i><i class="fa-solid fa-star"
+                            style="color: #000000;"></i> Rating</a></li>
+                <li><a href="./hire.html"><i class="fa-solid fa-location-dot" style="color: #000000;"></i>    Hire</a></li>
+            </ul>
+            
+        </nav>
+        
+        <div class="banner2">
+            <section class="nameandtitle">
+                <h1>Hire</h1>
+                <h2 id="h2">Fill out the form so we can attend your event</h2>
+            </section>
+        </div>
+    </header>
+        <div class="containerform2">
+            <div class="containerform">
+                <article><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.0442050135!2d-118.741395569654!3d34.02060844813182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1697733083324!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></article>
+                <form action="./show_data.html">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name" required>
+                    <br>
+
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" required>
+                    <br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <br>
+
+                    <label for="service">Choose Service:</label>
+                    <select id="service" name="service" required>
+                        <option value="Wedding">Wedding</option>
+                        <option value="Birthday">Birthday</option>
+                        <option value="Kids Birthday">Kids Birthday</option>
+                        <option value="Photos Studio / Outside">Photos Studio / Outside</option>
+                    </select>
+                    <br>
+
+                    <label for="date">Reservation Date:</label>
+                    <input type="date" id="date" name="date" required>
+                    <br>
+
+                    <label for="payment">Payment Options:</label>
+
+                    <label for="cash">Cash<input type="radio" id="cash" name="payment" value="Cash" required></label>
+                    <label for="credit_card">Credit Card<input type="radio" id="credit_card" name="payment" value="Credit Card" required></label>
+                    <label for="debit_card">Debit Card<input type="radio" id="debit_card" name="payment" value="Debit Card" required></label>
+                    <br>
+
+                    <label for="message">Message (Location and Time):</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Location and Time"></textarea>
+                    <br>
+                    <label for="terms">I Accept the Terms and Conditions<input type="checkbox" id="terms" name="terms" required></label>
+                    <br>
+
+                    <input type="submit" value="Submit">
+                </form>
+                
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <p>Created by Tomas Gonzalez</p>
+    </footer>
+</body>
+</html>
